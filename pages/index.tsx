@@ -29,7 +29,7 @@ const Home = (props: props) => {
 				props.posts.map((list) => {
 					return(
 						<Li key={list.id}>
-							<Link href={'/post/[id]'} as={`/post/${list.id}`}>{list.title}</Link>
+							<Link href={'/post/[id]'} as={`/post/${list.id}`}><a>{list.title}</a></Link>
 							<hr/>
 							{list.body}
 						</Li>
