@@ -6,6 +6,7 @@ margin: 0px auto;`;
 
 export const Li = styled.li`
 margin: 25px;
+word-break: break-all;
 padding: 20px;
 border-radius: 25px;
 list-style-type: none;
