@@ -47,6 +47,7 @@ export const Form = styled.form`
 export const Div = styled.div`
 margin: 25px;
 padding: 20px;
+word-break: break-all;
 border-radius: 25px;
 list-style-type: none;
 background: #dadce6;
