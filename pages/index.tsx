@@ -16,11 +16,17 @@ interface props {
 	posts: post[],
 }
 
-const Home = (props: props) => {
+const Home = (props: props)=> {
 
 	useEffect( () => {
 		props.getPosts()
 	}, []);
+
+	if(props.posts.length === 0) {
+		return <Header>
+			<h1>Loading...</h1>
+		</Header>
+	}
 
 	return(
 		<Header>
