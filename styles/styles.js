@@ -6,7 +6,7 @@ margin: 0px auto;`;
 
 export const Li = styled.li`
 margin: 25px;
-word-break: break-all;
+word-wrap: break-word;
 padding: 20px;
 border-radius: 25px;
 list-style-type: none;
@@ -47,7 +47,7 @@ export const Form = styled.form`
 export const Div = styled.div`
 margin: 25px;
 padding: 20px;
-word-break: break-all;
+word-wrap: break-word;
 border-radius: 25px;
 list-style-type: none;
 background: #dadce6;
